@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21century continuing education school</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #4c74af;
+            padding: 25px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333333;
+        }
+
+        .nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .main {
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        img {
+   display: block;
+   margin: auto;
+  }
+    </style>
+</head>
+<body>
+    <div class="header">
+        21century continuing education school
+    </div>
+    <div class="nav">
+        <a class="active" href="School Profile.html">School Profile</a>
+        <a href="Course Introduction.html">Course description</a>
+        <a href="School Life.html">occupation</a>
+        <a href="Contact Us.html">Contact Us</a>
+    </div>
+    <div class="main">
+        
+        <p>address:Northfields Ave, Wollongong NSW </p></center>
+    <p>tel +86 13059994600</p></center>
+    </div>
+    <div class="footer">
+        Copyright &copy; 21century continuing education school
+    </div>
+</body>
+</html>
