@@ -86,11 +86,11 @@ li.dropdown {
           <li class="dropdown">
             <a href="https://lukehujunjie.github.io/ICT441/Course detail.html" class="dropbtn"> course detail </a>
             <div class="dropdown-content">
-              <a href="#">CUFDIG507A - Design digital simulations</a>
-              <a href="#">CUACRT501 - Originate and develop concepts</a>
-              <a href="#">UADIG502 - Design digital applications</a>
-              <a href="#">CUFDIG503A - Design e-learning resources</a>
-              <a href="#">BSBPM509A - Manage project procurement</a>
+              <a href="https://lukehujunjie.github.io/ICT441/CUFDIG507A - Design digital simulations.html">CUFDIG507A - Design digital simulations</a>
+              <a href="https://lukehujunjie.github.io/ICT441/CUACRT501 - Originate and develop concepts.html">CUACRT501 - Originate and develop concepts</a>
+              <a href="https://lukehujunjie.github.io/ICT441/UADIG502 - Design digital applications.html">UADIG502 - Design digital applications</a>
+              <a href="https://lukehujunjie.github.io/ICT441/CUFDIG503A - Design e-learning resources.html">CUFDIG503A - Design e-learning resources</a>
+              <a href="https://lukehujunjie.github.io/ICT441/BSBPM509A - Manage project procurement.html">BSBPM509A - Manage project procurement</a>
             </div>
             <li><a href=" https://lukehujunjie.github.io/ICT441/map.html"> map </a></li>
             <li><a href=" https://lukehujunjie.github.io/ICT441/Contact Us.html"> contact us </a></li>
@@ -98,26 +98,52 @@ li.dropdown {
               <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
           </form>
           </li>
-
+        </ul>
 </div>
-<h1 style="text-align: center"> Map </h1>
 
-<div class="container">
-   <img class="mySlides" src="images/s.png" style="width:60%">
-   <img class="mySlides" src="images/d.png" style="width:60%">
-   
- 
-   <button class="left"  onclick="plusDivs(-1)">&#10094;</button>
-   <button class="right" onclick="plusDivs(1)">&#10095;</button>
-  
- </div>
+<div class="about-bottom">
+	<div class="contact">
+		<div class="col span_2_of_3">
+		  <div class="contact-form" style="text-align: center;">
+			  <h3>Contact Us</h3>
+			  <div class="form" id="my-form">
+				<div>
+				  <label for="name" id="fn"> Name:</label>
+				  <input type="text" id="name" name="name" required>
+				</div>
 
-  
- <script src="map.js"></script>
- <div style="text-align: center;">
- <a class="link" href="https://cn.bing.com/images/search?view=detailV2&ccid=zNFz%2f2mN&id=7ED2B8C3970FD7075528094304F4A1D2427574F9&thid=OIP.zNFz_2mNT6oBG80hGk5w-gHaFm&mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.ccd173ff698d4faa011bcd211a4e70fa%3frik%3d%252bXR1QtKh9ARDCQ%26riu%3dhttp%253a%252f%252fwww.cacos.com%252fuploadfile%252f2015%252f0420%252f20150420100043109.jpg%26ehk%3dMv1z33704LeWvKymBTsjSqD9mG1udjuM1OBaYc8DfhI%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=807&expw=1066&q=%e6%be%b3%e6%b4%b2%e6%82%89%e5%b0%bc%e5%a4%a7%e5%ad%a6%e5%9c%b0%e5%9b%be&simid=608029479701794994&FORM=IRPRST&ck=737972459C67C86C856BA27D6375D5CA&selectedIndex=0&ajaxhist=0&ajaxserp=0"> link map </a>
-</div>
-    
+			
+				<div>
+				  <label for="phone" id="pn"> Number:</label>
+				  <input type="tel" id="phone" name="phone" required>
+				</div>
+				<div>
+				  <label for="Email" id="En">Email:</label>
+				  <input type="tel" id="Email" name="Email" required>
+				</div>
+				<div>
+				  <label for="gender" id="gd">Gender:</label>
+				  <select id="gender" name="gender" required>
+					<option value="">Please select</option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				  </select>
+				</div>
+			
+				<div>
+				  <label for="Subject" id="eq">Subject:</label>
+				  <textarea id="Subject" name="Subject" rows="5" required></textarea>
+				</div>
+			   
+				<button onclick="Validate()">Submit</button>
+				<script src="js/sub2.js"></script>
+			  </div>
+				 
+				
+			   </form>
+		  </div>
+		  </div>
+
         
         
     </div>
