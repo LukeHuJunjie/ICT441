@@ -45,12 +45,34 @@ li.dropdown {
   
 }
 
+.form{
+  width: 1600px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border:2px solid black ;
+  border-radius: 7%;
+}
+
+.form-boy{
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(216, 97, 97, 0.2);
   z-index: 1;
 }
 
@@ -95,11 +117,25 @@ li.dropdown {
             <li><a href=" https://lukehujunjie.github.io/ICT441/map.html"> map </a></li>
             <li><a href=" https://lukehujunjie.github.io/ICT441/Contact Us.html"> contact us </a></li>
             <form>
-              <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
+              <div class="search">
+                <input type="search" id="mySearch" name="q" placeholder="search for..." required />
+                <button>search</button>
+                <span class="validity"></span>
+              </div>
           </form>
           </li>
         </ul>
+        <h2>welcome to our school</h2>
+        <p>Very welcome to join
+
+        <p> If you have any questions, you can contact us</p>
+          
+        <p>  Phone:xxxxxxxxxxxxxxx</p>
+          
+        <p>  Email: xxxxxxxxxxxx.com</p>
 </div>
+
+<script src="sub.js"></script>
 
 <div class="about-bottom">
 	<div class="contact">
@@ -107,21 +143,24 @@ li.dropdown {
 		  <div class="contact-form" style="text-align: center;">
 			  <h3>Contact Us</h3>
 			  <div class="form" id="my-form">
-				<div>
+				<div class="form-boy">
 				  <label for="name" id="fn"> Name:</label>
 				  <input type="text" id="name" name="name" required>
 				</div>
+        <br>
 
 			
-				<div>
+				<div class="form-boy">
 				  <label for="phone" id="pn"> Number:</label>
 				  <input type="tel" id="phone" name="phone" required>
 				</div>
-				<div>
+        <br>
+				<div class="form-boy">
 				  <label for="Email" id="En">Email:</label>
 				  <input type="tel" id="Email" name="Email" required>
 				</div>
-				<div>
+        <br>
+				<div class="form-boy">
 				  <label for="gender" id="gd">Gender:</label>
 				  <select id="gender" name="gender" required>
 					<option value="">Please select</option>
@@ -129,21 +168,22 @@ li.dropdown {
 					<option value="Female">Female</option>
 				  </select>
 				</div>
-			
-				<div>
+			<br>
+        <div class="form-boy">
 				  <label for="Subject" id="eq">Subject:</label>
 				  <textarea id="Subject" name="Subject" rows="5" required></textarea>
 				</div>
+        <br>
 			   
 				<button onclick="Validate()">Submit</button>
 				<script src="js/sub2.js"></script>
-			  </div>
+			  
 				 
 				
-			   </form>
+			  
 		  </div>
 		  </div>
-
+      
         
         
     </div>
