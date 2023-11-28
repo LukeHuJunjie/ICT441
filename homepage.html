@@ -95,7 +95,11 @@ li.dropdown {
             <li><a href=" https://lukehujunjie.github.io/ICT441/map.html"> map </a></li>
             <li><a href=" https://lukehujunjie.github.io/ICT441/Contact Us.html"> contact us </a></li>
             <form>
-              <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
+              <div class="search">
+                <input type="search" id="mySearch" name="q" placeholder="search for..." required />
+                <button>search</button>
+                <span class="validity"></span>
+              </div>
           </form>
           </li>
         </ul>
